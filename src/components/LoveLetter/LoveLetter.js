@@ -1,8 +1,9 @@
 import React, { useState, useRef } from 'react';
-import './LoveLetter.css';
+import './Letter.css';
 import audioFile from './kushi.mp3';
 
-const LoveLetter = () => {
+const LoveLetter = () => { 
+  
   const [isOpen, setIsOpen] = useState(false);
   const [isFullSize, setIsFullSize] = useState(false);
   const audioRef = useRef(null);
